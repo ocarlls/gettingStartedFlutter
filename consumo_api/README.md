@@ -1,16 +1,14 @@
-# consumo_api
+# Listagem de Produtos com Flutter
 
-A new Flutter project.
+Este projeto é um aplicativo criado para fixar os conceitos iniciais do desenvolvimento Flutter que consome uma API pública para obter uma listagem de produtos fictícios, exibindo-os na tela inicial do aplicativo. A API utilizada para esse propósito é a "https://dummyjson.com/," que fornece dados de amostra para testes.
 
-## Getting Started
+## Funcionalidades
 
-This project is a starting point for a Flutter application.
+O aplicativo possui as seguintes funcionalidades:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Realiza uma requisição GET para a API "https://dummyjson.com/products" para obter uma listagem de dados de diversos produtos.
+- Exibe uma lista de produtos na tela inicial do aplicativo, incluindo informações como nome, preço, descrição, etc.
+- Permite que o usuário role a lista para visualizar todos os produtos disponíveis.
+  
+- Demonstra o uso básico de widgets no Flutter para criar uma interface de usuário atraente e funcional.
+- Explora o manuseio de funções assíncronas para buscar dados da API de forma eficiente.
